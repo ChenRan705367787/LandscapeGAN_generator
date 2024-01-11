@@ -1,5 +1,0 @@
-cover[[:space:]]test filter=lfs diff=lfs merge=lfs -text
-landscapeGAN.py filter=lfs diff=lfs merge=lfs -text
-layout.pth filter=lfs diff=lfs merge=lfs -text
-rendering.pth filter=lfs diff=lfs merge=lfs -text
-sketch.pth filter=lfs diff=lfs merge=lfs -text
