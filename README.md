@@ -40,13 +40,13 @@
    如：size = [256,256]  
    
 ## 文件结构
-**landscapeGAN.py**  
+1.**landscapeGAN.py：**  
     主要的生成脚本  
-**.pth**  
+2.**.pth：**  
     模型权重文件   
-**test文件夹**  
+3.**test文件夹：**  
     输入图片与生成的输出图片范例  
-**README.md**  
+4.**README.md：**  
     项目说明文件  
 
 ## 版本历史
