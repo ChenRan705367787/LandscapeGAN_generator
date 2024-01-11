@@ -33,20 +33,20 @@
    model = ResnetGenerator(self, input_nc, output_nc, ngf=64, n_blocks=9)  
    可以调整 ngf（生成器的通道数）和 n_blocks（残差块的数量），减小这些值会减小模型的复杂度。  
    如： model = ResnetGenerator(self, input_nc, output_nc, ngf=32, n_blocks=6)  
-4. **降低输入图像分辨率：**  
+3. **降低输入图像分辨率：**  
    if mode == 'sketch':  
        size = [512, 512]  
    在 'if __name__ == "__main__":' 的代码块中，通过调整 size 可以降低输入图像的分辨率：  
    如：size = [256,256]  
    
 ## 文件结构
-1.**landscapeGAN.py：**  
+1. **landscapeGAN.py：**  
     主要的生成脚本  
-2.**.pth：**  
+2. **.pth：**  
     模型权重文件   
-3.**test文件夹：**  
+3. **test文件夹：**  
     输入图片与生成的输出图片范例  
-4.**README.md：**  
+4. **README.md：**  
     项目说明文件  
 
 ## 版本历史
